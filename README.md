@@ -1,2 +1,2 @@
 # api.buscadorNoticias
-Api creada en React para buscador de noticias 
+Api creada en React para buscador de noticias en desarrollo
