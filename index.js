@@ -8,6 +8,20 @@ window.onload = function ()
     interpreset_bp = JSON.parse(basePreguntas);
     escogerPreguntaAleatoria();
 };
+
+function readText(ruta_local)
+{
+    var texto = null;
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open('GET', ruta_local, false);
+    xmlhttp.send();
+
+    if (xmlhttp.status == 200)
+    {
+        texto = xmlhttp.responseText;
+    }
+    return texto;
+}
   
 let pregunta;
 let posibles_espuestas;
@@ -150,7 +164,7 @@ function reiniciar_puntos()
 {
     for(const btn of btn_correspondiente)
     {
-        btn.style.basePreguntas="white";
+        btn.style.background = "white";
     }
     escogerPreguntaAleatoria();
 }
@@ -165,17 +179,4 @@ function style(id)
     return select_id(id).style;    
 }
 
-function readText(ruta_local)
-{
-    var texto = null;
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open('GET', ruta_local, false);
-    xmlhttp.send();
-
-    if (xmlhttp.status == 200)
-    {
-        texto = xmlhttp.responseText;
-    }
-    return texto;
-}
 
