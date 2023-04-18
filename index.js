@@ -65,7 +65,7 @@ function escogerPregunta(n)
 {
     pregunta = interpreset_bp[n];
     select_id("categoria").innerHTML = pregunta.categoria;    
-    select_id("pregunta").innerHTML = pregunta.pregunra;    
+    select_id("pregunta").innerHTML = pregunta.pregunta;    
     select_id("numero").innerHTML = pregunta.n; 
     
     let pc = preguntasCorrectas;
@@ -152,7 +152,7 @@ function reiniciar_puntos()
     {
         btn.style.basePreguntas="white";
     }
-    escogerPreguntarAlatoria();
+    escogerPreguntaAleatoria();
 }
 
 function select_id(id)
