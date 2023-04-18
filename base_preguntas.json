@@ -1,0 +1,12 @@
+[
+    {
+        "categoria": "Español",
+        "pregunra": "¿Quien Pinto la monalisa?",
+        "respuesta": "Leonardo da Vinci",
+        "incorrecta1": "Picasso",
+        "incorrecta2": "Cesar",
+        "incorrecta3": "Monet",
+        "imagen":"https://historia.nationalgeographic.com.es/medio/2018/06/11/01-mona-lisa-marco-gioconda-louvre_2d7f91a1.jpg",
+        "objectFit": "cover"
+    }
+]
