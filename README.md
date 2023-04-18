@@ -14,7 +14,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Demo
 
-![App Screenshot](img/demov1.png)
+![App Screenshot](demo.png)
 https://antoniovalentinsayago.github.io/test_conocmiento/
 
 
