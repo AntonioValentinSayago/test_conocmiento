@@ -2,30 +2,15 @@ let preguntas_aleatorias = true;
 let mostrar_pantalla_juego_terminado = true;
 let reiniciar_puntos_juego = true;
 
-/* window.onload = function ()
+window.onload = function ()
 {
-    basePreguntas = readText("base_preguntas.json");
+    basePreguntas = readText("https://antoniovalentinsayago.github.io/test_conocmiento/base_preguntas.json");
     interpreset_bp = JSON.parse(basePreguntas);
-    escogerPregunta();
-}; */
-
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'base_preguntas.json', true);
-xhr.onload = function () {
-  if (xhr.status === 200) {
-    var datos = JSON.parse(xhr.responseText);
-    // hacer algo con los datos
-    escogerPregunta();
-  } else {
-    console.log('Error al cargar el archivo:', xhr.status);
-  }
+    escogerPreguntaAleatoria();
 };
-xhr.send();
-
-
   
 let pregunta;
-let posiblesRespuestas;
+let posibles_espuestas;
 
 btn_correspondiente = 
 [
@@ -39,12 +24,12 @@ let ngpreguntas = [];
 let preguntasHechas = 0;
 let preguntasCorrectas = 0;
 
-function escogerPregunta()
+function escogerPreguntaAleatoria()
 {
     let n;
     if (preguntas_aleatorias)
     {
-        n = Math.floor(Match.randoom() * interpreset_bp.length);    
+        n = Math.floor(Math.random() * interpreset_bp.length);    
     } else
     {n = 0;}
     
@@ -80,7 +65,7 @@ function escogerPregunta(n)
 {
     pregunta = interpreset_bp[n];
     select_id("categoria").innerHTML = pregunta.categoria;    
-    select_id("pregunta").innerHTML = pregunta.pregunta;    
+    select_id("pregunta").innerHTML = pregunta.pregunra;    
     select_id("numero").innerHTML = pregunta.n; 
     
     let pc = preguntasCorrectas;
@@ -93,16 +78,16 @@ function escogerPregunta(n)
         select_id("puntaje").innerHTML = " ";
     }
 
-    style("imagen").objectFit = preguntas.objectFit;
+    style("imagen").objectFit = pregunta.objectFit;
     desordenarRespuesta(pregunta);
     if (pregunta.imagen)
     {
         select_id("imagen").setAttribute("src", pregunta.imagen);
-        style("imaggen").height = "200px";
-        style("imaggen").width = "100%";
+        style("imagen").height = "200px";
+        style("imagen").width = "100%";
     }else {
-        style("imaggen").height = "0px";
-        style("imaggen").width = "0%";
+        style("imagen").height = "0px";
+        style("imagen").width = "0%";
         setTimeout( () => {
             select_id("imagen").setAttribute("src", "");
         },500);
