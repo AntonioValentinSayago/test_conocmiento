@@ -1,82 +1,152 @@
 [
-    {
-        "categoria": "Español",
-        "pregunta": "¿Este texto se llama",
-        "respuesta": "Noticia",
-        "incorrecta1": "Reportaje",
-        "incorrecta2": "Carta Opinion",
-        "incorrecta3": "Texto Informativo",
-        "imagen":"https://imagenes.elpais.com/resizer/koyYIFK49En0QhB3nZiAT4k6QFM=/1960x1470/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/L6RC2D3PAPDWKMO5HGBQA7UXOQ.jpg",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Español",
-        "pregunta": "Ejemplos de adejtivos calificativos",
-        "respuesta": "amigable",
-        "incorrecta1": "escribir,recortar",
-        "incorrecta2": "yo,tu,él",
-        "incorrecta3": "desde, hasta",
-        "imagen":"https://historia.nationalgeographic.com.es/medio/2018/06/11/01-mona-lisa-marco-gioconda-louvre_2d7f91a1.jpg",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Español",
-        "pregunta": "Elemento importante del poema que consiste en medir cada verso",
-        "respuesta": "métrica",
-        "incorrecta1": "estrofa",
-        "incorrecta2": "reglas de medición",
-        "incorrecta3": "asonante",
-        "imagen":"https://historia.nationalgeographic.com.es/medio/2018/06/11/01-mona-lisa-marco-gioconda-louvre_2d7f91a1.jpg",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Español",
-        "pregunta": "Conjunto de dos o más versos que quedan unidos en una especie de párrafos",
-        "respuesta": "estrofa",
-        "incorrecta1": "métrica",
-        "incorrecta2": "reglas de medición",
-        "incorrecta3": "asonante",
-        "imagen":"https://historia.nationalgeographic.com.es/medio/2018/06/11/01-mona-lisa-marco-gioconda-louvre_2d7f91a1.jpg",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Español",
-        "pregunta": "Menciona las partes de una carta de opinión",
-        "respuesta": "Lugar y fecha, saludo,cuerpo y despedida",
-        "incorrecta1": "Introducción,cuerpo y firma",
-        "incorrecta2": "Entrada,desarrollo y conclusión",
-        "incorrecta3": "Fecha, desarrollo y conclusión",
-        "imagen":"https://historia.nationalgeographic.com.es/medio/2018/06/11/01-mona-lisa-marco-gioconda-louvre_2d7f91a1.jpg",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Matematicas",
-        "pregunta": "Conjunto de dos o más versos que quedan unidos en una especie de párrafos",
-        "respuesta": "17 537 111",
-        "incorrecta1": "10 437 830",
-        "incorrecta2": "18 322 091",
-        "incorrecta3": "18 420 075",
-        "imagen":"https://slideplayer.es/slide/3269606/11/images/3/Pa%C3%ADses+de+mayor+extensi%C3%B3n+territorial+de+cada+continente..jpg",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Matematicas",
-        "pregunta": "Para comprar un balón de $60 Pepe dio 1/5 parte del precio, Gabriel 1/3 y Luis el resto. ¿Cuánto dinero puso Luis?",
-        "respuesta": "$32",
-        "incorrecta1": "$20",
-        "incorrecta2": "$12",
-        "incorrecta3": "$28",
-        "imagen":"https://slideplayer.es/slide/3269606/11/images/3/Pa%C3%ADses+de+mayor+extensi%C3%B3n+territorial+de+cada+continente..jpg",
-        "objectFit": "cover"
-    },
-    {
-        "categoria": "Matematicas",
-        "pregunta": "¿Cuál es el elemento que se contiene en mayor cantidad en gramos el producto de la siguiente etiqueta nutricional",
-        "respuesta": "Proteínas",
-        "incorrecta1": "Sodio",
-        "incorrecta2": "Grasa Total",
-        "incorrecta3": "Colesterol",
-        "imagen":"https://nutrisnacks.net/wp-content/uploads/2021/06/etiqueta-blog-e1622740544448.jpg",
-        "objectFit": "cover"
-    }
+  {
+    "categoria": "Español",
+    "pregunta": "¿En qué persona se narra una biografia ",
+    "respuesta": "Tercera plural",
+    "incorrecta1": "Primera Plural",
+    "incorrecta2": "Tercera singular",
+    "incorrecta3": "Tercera Plural",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "Para realizar una entrevista existen 2 tipos de preguntas que son:",
+    "respuesta": "Cerradas y abiertas",
+    "incorrecta1": "Correctas e Incorrectas",
+    "incorrecta2": "Cerradas y Correctas",
+    "incorrecta3": "Coherentes e Incoherentes",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "Menciona los tipos de oraciones que existen",
+    "respuesta": "Yuxtapuesta, subordinada",
+    "incorrecta1": "Completa, Yuxtapuesta, ordinada",
+    "incorrecta2": "Coordinada, completa, estimada",
+    "incorrecta3": "Onomatopeya, abierta y cerrada",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "¿Este texto se llama?",
+    "respuesta": "Noticia",
+    "incorrecta1": "Reportaje",
+    "incorrecta2": "Carta Opinion",
+    "incorrecta3": "Texto Informativo",
+    "imagen": "https://imagenes.elpais.com/resizer/koyYIFK49En0QhB3nZiAT4k6QFM=/1960x1470/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/L6RC2D3PAPDWKMO5HGBQA7UXOQ.jpg",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "Ejemplos de adejtivos calificativos",
+    "respuesta": "amigable",
+    "incorrecta1": "escribir,recortar",
+    "incorrecta2": "yo,tu,él",
+    "incorrecta3": "desde, hasta",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "Elemento importante del poema que consiste en medir cada verso",
+    "respuesta": "métrica",
+    "incorrecta1": "estrofa",
+    "incorrecta2": "reglas de medición",
+    "incorrecta3": "asonante",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "Conjunto de dos o más versos que quedan unidos en una especie de párrafos",
+    "respuesta": "estrofa",
+    "incorrecta1": "métrica",
+    "incorrecta2": "reglas de medición",
+    "incorrecta3": "asonante",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "Menciona las partes de una carta de opinión",
+    "respuesta": "Lugar y fecha, saludo,cuerpo y despedida",
+    "incorrecta1": "Introducción,cuerpo y firma",
+    "incorrecta2": "Entrada,desarrollo y conclusión",
+    "incorrecta3": "Fecha, desarrollo y conclusión",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "En la oración que se separa por anexos como y, o",
+    "respuesta": "Coordinada",
+    "incorrecta1": "Yuxtapuesta",
+    "incorrecta2": "Abierta",
+    "incorrecta3": "Cerrada",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Español",
+    "pregunta": "ELos siguientes son adjetivos calificativos excepto ",
+    "respuesta": "rapidamente",
+    "incorrecta1": "verde",
+    "incorrecta2": "rápido",
+    "incorrecta3": "cariñoso",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Matematicas",
+    "pregunta": "Si sumaramos la extensión territorial del país con mayor número y los del país que tiene menor número de extensión territorial. ¿Cuánto territorio habría en total?",
+    "respuesta": "17 537 111",
+    "incorrecta1": "10 437 830",
+    "incorrecta2": "18 322 091",
+    "incorrecta3": "18 420 075",
+    "imagen": "https://slideplayer.es/slide/3269606/11/images/3/Pa%C3%ADses+de+mayor+extensi%C3%B3n+territorial+de+cada+continente..jpg",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Matematicas",
+    "pregunta": "Para comprar un balón de $60 Pepe dio 1/5 parte del precio, Gabriel 1/3 y Luis el resto. ¿Cuánto dinero puso Luis?",
+    "respuesta": "$32",
+    "incorrecta1": "$20",
+    "incorrecta2": "$12",
+    "incorrecta3": "$28",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Matematicas",
+    "pregunta": "¿Cuál es el elemento que se contiene en mayor cantidad en gramos el producto de la siguiente etiqueta nutricional",
+    "respuesta": "Proteínas",
+    "incorrecta1": "Sodio",
+    "incorrecta2": "Grasa Total",
+    "incorrecta3": "Colesterol",
+    "imagen": "https://nutrisnacks.net/wp-content/uploads/2021/06/etiqueta-blog-e1622740544448.jpg",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Matematicas",
+    "pregunta": "Una compañia constructora quiere poner un parque de diversiones con estacionamiento en un terreno cpn 4/5 hm de largo, por 1/3 hm de ancho. ¿Qué área ocupara el terreno?",
+    "respuesta": "1 hm2",
+    "incorrecta1": "0.264 hm2",
+    "incorrecta2": "2 km2",
+    "incorrecta3": "1 hm2",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Matematicas",
+    "pregunta": "Una caja con 12 litros de leche cuesta $232. Si tiene agregado el 16% de IVA. ¿Cuál es el precio real de la caja sin este impuesto?",
+    "respuesta": "181.44",
+    "incorrecta1": "37.12",
+    "incorrecta2": "200.00",
+    "incorrecta3": "172.80",
+    "imagen": "https://nutrisnacks.net/wp-content/uploads/2021/06/etiqueta-blog-e1622740544448.jpg",
+    "objectFit": "cover"
+  }
 ]

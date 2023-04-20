@@ -2,6 +2,9 @@ let preguntas_aleatorias = true;
 let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
 
+/* Setting up the initial state of the game by loading the questions from a JSON file, parsing them
+into an array, and then choosing a random question to display on the screen. This code is executed
+when the window finishes loading. */
 window.onload = function () {
   base_preguntas = readText("https://antoniovalentinsayago.github.io/test_conocmiento/base_preguntas.json");
   interprete_bp = JSON.parse(base_preguntas);
@@ -43,6 +46,11 @@ function escogerPreguntaAleatoria() {
             "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas - 1),
           icon: "success",
         });
+        const audio = document.createElement("audio");
+        audio.preload = "auto";
+        audio.src = "auido.mp3";
+        audio.play();
+        document.body.appendChild(audio);
       }
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0;
@@ -121,7 +129,7 @@ function oprimir_btn(i) {
   setTimeout(() => {
     reiniciar();
     suspender_botones = false;
-  }, 3000);
+  }, 1000);
 }
 
 // let p = prompt("numero")
@@ -141,6 +149,12 @@ function style(id) {
   return select_id(id).style;
 }
 
+/**
+ * The function reads a text file from a local path using XMLHttpRequest in JavaScript.
+ * @param ruta_local - ruta_local is a string parameter that represents the local path of the text file
+ * @returns the text content of a file located at the specified local path (ruta_local) using an
+ * XMLHttpRequest object. If the request is successful (status code 200), the function returns the text
+ */
 function readText(ruta_local) {
   var texto = null;
   var xmlhttp = new XMLHttpRequest();
