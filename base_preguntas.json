@@ -146,7 +146,38 @@
     "incorrecta1": "37.12",
     "incorrecta2": "200.00",
     "incorrecta3": "172.80",
-    "imagen": "https://nutrisnacks.net/wp-content/uploads/2021/06/etiqueta-blog-e1622740544448.jpg",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Matematicas",
+    "pregunta": "Noemí tiene 4 metros de tela roja con la que quiere hacer 3 vestidos. ¿Cuánto de tela debe utilizar para cada vestido?",
+    "respuesta": "6/8m",
+    "incorrecta1": "3/4m",
+    "incorrecta2": "4/4",
+    "incorrecta3": "Ninguna de las anteriores",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Ciencias Naturales",
+    "pregunta": "El sistema nervioso se divide en:",
+    "respuesta": "Central y periférico",
+    "incorrecta1": "Interno y externo",
+    "incorrecta2": "Interno y central",
+    "incorrecta3": "Central y Único",
+    "imagen": "",
+    "objectFit": "cover"
+  },
+  {
+    "categoria": "Ciencias Naturales",
+    "pregunta": "¿Qué factor resultó determinante en la forma de la alimentación del hombre?",
+    "respuesta": "Descrubrimiento del fuego",
+    "incorrecta1": "ILa tecnología",
+    "incorrecta2": "Las máquinas",
+    "incorrecta3": "CLos animales",
+    "imagen": "",
     "objectFit": "cover"
   }
+  
 ]
